@@ -1,0 +1,69 @@
+/* 
+  Localizable.strings
+  
+
+  Created by El Mostafa El Ouatri on 12/07/23.
+  
+*/
+
+"an_error_occured" = "An error occurred. Please try again later!";
+"error" = "Error";
+"service_error" = "Service error";
+
+"networkError.error.title" = "Request Error";
+"networkError.error.description" = "An error occurred while processing the request.";
+
+"networkError.not_connected.title" = "No Internet Connection";
+"networkError.not_connected.description" = "Please check your network settings.";
+
+"networkError.cancelled.title" = "Request Cancelled";
+"networkError.cancelled.description" = "The request was cancelled.";
+
+"networkError.generic.title" = "Network Error";
+"networkError.generic.description" = "An unexpected error occurred during the network operation.";
+
+"networkError.url_generation.title" = "URL Generation Error";
+"networkError.url_generation.description" = "An error occurred while generating the URL.";
+
+"networkError.not_found.title" = "Resource Not Found";
+"networkError.not_found.description" = "The requested resource was not found on the server.";
+
+"networkError.bad_response.title" = "Bad Response";
+"networkError.bad_response.description" = "A bad response was received from the server.";
+
+"networkError.failed_response.title" = "Failed Response";
+"networkError.failed_response.description" = "The server failed to respond properly.";
+
+"networkError.invalid_response.title" = "Invalid Response";
+"networkError.invalid_response.description" = "The server returned an invalid response.";
+
+"networkError.no_data.title" = "No Data";
+"networkError.no_data.description" = "The server did not return any data.";
+
+// datatransfererror - no response
+"api_client_error.no_response.title" = "No Response";
+"api_client_error.no_response.description" = "The server did not provide any data in response to the request.";
+
+// datatransfererror - no valid response
+"api_client_error.no_valid_response.title" = "No Valid Response";
+"api_client_error.no_valid_response.description" = "The server's response was empty or invalid.";
+
+// datatransfererror - parsing json
+"api_client_error.parsing_json.title" = "Data Error";
+"api_client_error.parsing_json.description" = "There was an issue with processing data from the server.";
+
+// datatransfererror - network failure
+"api_client_error.network_failure.title" = "Network Failure";
+"api_client_error.network_failure.description" = "The request could not be completed due to a network problem.";
+
+// datatransfererror - server error message
+"api_client_error.server_error_message.title" = "Server Error";
+"api_client_error.server_error_message.description" = "The server provided an error message in response to the request.";
+
+// datatransfererror - invalid response
+"api_client_error.invalid_response.title" = "Invalid Response";
+"api_client_error.invalid_response.description" = "The server returned an invalid response.";
+
+// datatransfererror - no data
+"api_client_error.no_data.title" = "No Data";
+"api_client_error.no_data.description" = "The server did not return any data.";

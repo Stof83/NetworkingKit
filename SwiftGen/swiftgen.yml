@@ -1,0 +1,37 @@
+## Note: all of the config entries below are just examples with placeholders. Be sure to edit and adjust to your needs when uncommenting.
+
+## In case your config entries all use a common input/output parent directory, you can specify those here.
+##   Every input/output paths in the rest of the config will then be expressed relative to these.
+##   Those two top-level keys are optional and default to "." (the directory of the config file).
+input_dir: ../Sources/NetworkingKit/Resources/
+output_dir: ../Sources/NetworkingKit/Generated/
+
+
+## Generate constants for your localized strings.
+##   Be sure that SwiftGen only parses ONE locale (typically Base.lproj, or en.lproj, or whichever your development region is); otherwise it will generate the same keys multiple times.
+##   SwiftGen will parse all `.strings` files found in that folder.
+strings:
+  inputs:
+    - Localizable/it.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: Strings+Generated.swift
+      
+      
+##files:
+##  inputs:
+##    - Lotties
+##  filter: .+\.json$
+##  outputs:
+##    templateName: Templates/lotties.stencil
+##    output: Lottie+Generated.swift
+
+
+## There are other parsers available for you to use depending on your needs, for example:
+##  - `fonts` (if you have custom ttf/ttc font files)
+##  - `coredata` (for CoreData models)
+##  - `json`, `yaml` and `plist` (to parse custom JSON/YAML/Plist files and generate code from their content)
+## …
+##
+## For more info, use `swiftgen config doc` to open the full documentation on GitHub.
+## https://github.com/SwiftGen/SwiftGen/tree/6.5.1/Documentation/

@@ -1,0 +1,69 @@
+/* 
+  Localizable.strings
+  
+
+  Created by El Mostafa El Ouatri on 17/06/23.
+  
+*/
+
+"an_error_occured" = "Si è verificato un errore. Per favore riprova più tardi!";
+"error" = "Errore";
+"service_error" = "Errore di servizio";
+
+"networkError.error.title" = "Errore nella Richiesta";
+"networkError.error.description" = "Si è verificato un errore durante l'elaborazione della richiesta.";
+
+"networkError.not_connected.title" = "Nessuna Connessione Internet";
+"networkError.not_connected.description" = "Si prega di verificare le impostazioni di rete.";
+
+"networkError.cancelled.title" = "Richiesta Annullata";
+"networkError.cancelled.description" = "La richiesta è stata annullata.";
+
+"networkError.generic.title" = "Errore di Rete";
+"networkError.generic.description" = "Si è verificato un errore imprevisto durante l'operazione di rete.";
+
+"networkError.url_generation.title" = "Errore Generazione URL";
+"networkError.url_generation.description" = "Si è verificato un errore durante la generazione della URL.";
+
+"networkError.not_found.title" = "Risorsa Non Trovata";
+"networkError.not_found.description" = "La risorsa richiesta non è stata trovata sul server.";
+
+"networkError.bad_response.title" = "Risposta Non Valida";
+"networkError.bad_response.description" = "È stata ricevuta una risposta non valida dal server.";
+
+"networkError.failed_response.title" = "Risposta Fallita";
+"networkError.failed_response.description" = "Il server non ha risposto correttamente.";
+
+"networkError.invalid_response.title" = "Risposta Non Valida";
+"networkError.invalid_response.description" = "Il server ha restituito una risposta non valida.";
+
+"networkError.no_data.title" = "Nessun Dato";
+"networkError.no_data.description" = "Il server non ha restituito alcun dato.";
+
+// datatransfererror - no response
+"api_client_error.no_response.title" = "Nessuna Risposta";
+"api_client_error.no_response.description" = "Il server non ha fornito alcun dato in risposta alla richiesta.";
+
+// datatransfererror - no valid response
+"api_client_error.no_valid_response.title" = "Nessuna Risposta Valida";
+"api_client_error.no_valid_response.description" = "La risposta del server era vuota o non valida.";
+
+// datatransfererror - parsing json
+"api_client_error.parsing_json.title" = "Errore dati";
+"api_client_error.parsing_json.description" = "C'è stato un problema durante l'elaborazione dei dati provenienti dal server.";
+
+// datatransfererror - network failure
+"api_client_error.network_failure.title" = "Errore di Rete";
+"api_client_error.network_failure.description" = "La richiesta non ha potuto essere completata a causa di un problema di rete.";
+
+// datatransfererror - server error message
+"api_client_error.server_error_message.title" = "Errore del Server";
+"api_client_error.server_error_message.description" = "Il server ha fornito un messaggio di errore in risposta alla richiesta.";
+
+// datatransfererror - invalid response
+"api_client_error.invalid_response.title" = "Risposta Non Valida";
+"api_client_error.invalid_response.description" = "Il server ha restituito una risposta non valida.";
+
+// datatransfererror - no data
+"api_client_error.no_data.title" = "Nessun Dato";
+"api_client_error.no_data.description" = "Il server non ha restituito alcun dato.";
